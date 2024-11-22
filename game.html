@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Highfunspin</title>
+    <title>Highfunspin - top game</title>
     <link rel="stylesheet" href="style/css.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
@@ -15,7 +15,7 @@
             <div class="highfun_cont">
                 <ul>
                     <li><a href="index.html">main page</a></li>
-                    <li><a href="#contacts">contacts</a></li>
+                    <li><a href="game.html">top game</a></li>
                     <li><a href="privacy.html">privacy policy</a></li>
                     <li><a href="terms.html">Terms of Service</a></li>
                 </ul>
@@ -23,7 +23,7 @@
             <img class="mob_1 mob_menu" data-act="" src="img/btn.png" alt="">
             <div class="menu_abs">
                <a href="index.html">Main page</a>
-                <a href="#contacts">Contacts</a>
+                <a href="game.html">Top game</a>
             <a href="privacy.html">Privacy Policy</a>
               <a href="terms.html">Terms of Service</a>
             </div>
@@ -32,7 +32,7 @@
 
     <div class="join">
         <div class="join_blokc align-center">
-            <h1>Games</h1>
+            <h1>Top game - PLINKO</h1>
         </div>
     </div>
 
@@ -46,7 +46,7 @@
     <div class="now">
         <div class="now_blokc full">
        
-            <p>Lorem ipsum dolor sit amet consectetur. Ut lectus adipiscing ornare risus molestie sit nullam. Dolor id eu ac netus aliquam. Magna maecenas augue egestas nunc sapien enim urna. Sed facilisis tellus et id morbi pretium nisl in.Lorem ipsum dolor sit amet consectetur. Ut lectus adipiscing ornare risus molestie sit nullam. Dolor id eu ac netus aliquam. Magna maecenas augue egestas nunc sapien enim urna. Sed facilisis tellus et id morbi pretium nisl in.Lorem ipsum dolor sit amet consectetur. Ut lectus adipiscing ornare risus molestie sit nullam. Dolor id eu ac netus aliquam. Magna maecenas augue egestas nunc sapien enim urna. Sed facilisis tellus et id morbi pretium nisl in.Lorem ipsum dolor sit amet consectetur. Ut lectus adipiscing ornare risus molestie sit nullam. Dolor id eu ac netus aliquam. Magna maecenas augue egestas nunc sapien enim urna. Sed facilisis tellus et id morbi pretium nisl in.Lorem ipsum dolor sit amet consectetur. Ut lectus adipiscing ornare risus molestie sit nullam. Dolor id eu ac netus aliquam. Magna maecenas augue egestas nunc sapien enim urna. Sed facilisis tellus et id morbi pretium nisl in.Lorem ipsum dolor sit amet consectetur. Ut lectus adipiscing ornare risus molestie sit nullam. Dolor id eu ac netus aliquam. Magna maecenas augue egestas nunc sapien enim urna. Sed facilisis tellus et id morbi pretium nisl in.Lorem ipsum dolor sit amet consectetur. Ut lectus adipiscing ornare risus molestie sit nullam. Dolor id eu ac netus aliquam. Magna maecenas augue egestas nunc sapien enim urna. Sed facilisis tellus et id morbi pretium nisl in.</p>
+            <p>Plinko is a popular game show segment famous for its iconic Plinko board. The game involves dropping chips or balls down the board and hoping for them to land in the highest-value slots at the bottom. Plinko offers a thrilling combination of luck and strategy that has captivated audiences for years.</p>
         
      
         </div>
@@ -57,14 +57,14 @@
             <div class="end_blokc">
                 <ul>
                     <li><a href="index.html">main page</a></li>
-                    <li><a href="#contacts">contacts</a></li>
+                    <li><a href="game.html">top game</a></li>
                     <li><a href="privacy.html">privacy policy</a></li>
                     <li><a href="terms.html">Terms of Service</a></li>
                 </ul>
             </div>
             <div class="end_cont">
                 <h5>Contact us:</h5>
-                <p>highfunspin.com</p>
+                <p>support@highfunspin.com</p>
             </div>
         </div>
     </footer>
@@ -89,10 +89,10 @@
             $('#frame1').html('<div class="iframe_block"><iframe src="https://static-stg.hacksawgaming.com/1294/1.40.0/index.html?language=en&amp;channel=mobile&amp;gameid=1294&amp;mode=2&amp;token=123&amp;partner=stg&amp;env=https://rgs-hacksaw-fun-stg.hacksawgaming.com/api&amp;realmoneyenv=https://rgs-hacksaw-stg.hacksawgaming.com/api&amp;alwaysredirect=true" referrerpolicy="no-referrer" sandbox="allow-scripts allow-forms allow-modals allow-pointer-lock allow-same-origin" allowfullscreen=""></iframe></div>');
         });
         jQuery(function($){
-        $(document).mouseup(function (e){ // событие клика по веб-документу (or .on(touchstart click))
-            var div = $(".pop_iframe").children('iframe'); // тут указываем ID элемента
-            if (!div.is(e.target) // если клик был не по нашему блоку
-                && div.has(e.target).length === 0) { // и не по его дочерним элементам
+        $(document).mouseup(function (e){
+            var div = $(".pop_iframe").children('iframe');
+            if (!div.is(e.target) 
+                && div.has(e.target).length === 0) { 
                     $(".pop_iframe").css('display','none');
             }
         });
